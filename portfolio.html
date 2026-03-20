@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio — Celestial Ventures Investments in Astrology & Wellness Technology</title>
+<meta name="description" content="Explore Celestial Ventures' portfolio of leading spiritual wellness, astrology, meditation, and mindfulness technology platforms, including investments across 24 companies serving 180M+ monthly users.">
+<meta property="og:title" content="Portfolio — Celestial Ventures Investments in Astrology & Wellness Technology">
+<meta property="og:description" content="Explore Celestial Ventures' portfolio of leading spiritual wellness, astrology, meditation, and mindfulness technology platforms, including investments across 24 companies serving 180M+ monthly users.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://celestialventures.co/portfolio">
+<meta property="og:site_name" content="Celestial Ventures">
+<meta property="og:image" content="https://celestialventures.co/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<link rel="canonical" href="https://celestialventures.co/portfolio">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://celestialventures.co/og-image.png">
+<meta name="twitter:title" content="Portfolio — Celestial Ventures">
+<meta name="twitter:description" content="Explore Celestial Ventures' portfolio of leading spiritual wellness, astrology, meditation, and mindfulness technology platforms.">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230c1222'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='18' font-weight='bold' fill='%23c9a84c' text-anchor='middle'%3ECV%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://celestialventures.co/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Portfolio",
+      "item": "https://celestialventures.co/portfolio"
+    }
+  ]
+}
+</script>
+<style>
+/* ═══════════ RESET & CUSTOM PROPERTIES ═══════════ */
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+
+:root {
+  --bg-deep: #080810;
+  --bg-primary: #0c1222;
+  --bg-elevated: #0f1730;
+  --bg-card: #111b33;
+  --bg-card-hover: #162040;
+  --text-primary: #e8e6e3;
+  --text-secondary: #9a9aaa;
+  --text-tertiary: #5a5a6e;
+  --gold: #c9a84c;
+  --gold-light: #ddc068;
+  --gold-dim: #a08636;
+  --gold-glow: rgba(201, 168, 76, 0.08);
+  --gold-glow-strong: rgba(201, 168, 76, 0.15);
+  --amber: #d4a574;
+  --border-subtle: rgba(255,255,255,0.04);
+  --border-gold: rgba(201, 168, 76, 0.25);
+  --font-display: 'EB Garamond', 'Georgia', serif;
+  --font-body: 'DM Sans', system-ui, -apple-system, sans-serif;
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  overflow-x: hidden;
+  line-height: 1.6;
+}
+
+/* ═══════════ SCROLLBAR ═══════════ */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--bg-deep); }
+::-webkit-scrollbar-thumb { background: #1e2845; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--gold-dim); }
+
+/* ═══════════ CONTAINER ═══════════ */
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* ═══════════ FADE-IN ANIMATION ═══════════ */
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.8s var(--ease-out-expo), transform 0.8s var(--ease-out-expo);
+}
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ═══════════ NAVIGATION ═══════════ */
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: rgba(12, 18, 34, 0.95);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  padding: 1.2rem 0;
+  border-bottom: 1px solid var(--border-subtle);
+}
+.nav-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+.nav-logo {
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.28em;
+  color: var(--text-primary);
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.nav-links {
+  display: flex;
+  gap: 2.5rem;
+  list-style: none;
+}
+.nav-links a {
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.nav-links a:hover {
+  color: var(--gold);
+}
+.nav-links a.active {
+  color: var(--gold);
+}
+
+/* Mobile nav toggle */
+.nav-toggle {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+}
+.nav-toggle span {
+  display: block;
+  width: 22px;
+  height: 1.5px;
+  background: var(--text-primary);
+  margin: 5px 0;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* ═══════════ PAGE HEADER ═══════════ */
+.page-header {
+  padding: 10rem 0 4rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.page-header::before {
+  content: '';
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(201, 168, 76, 0.04) 0%, transparent 65%);
+  pointer-events: none;
+}
+.page-header-content {
+  position: relative;
+  z-index: 1;
+}
+.page-header .section-label {
+  font-family: var(--font-body);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 1.2rem;
+}
+.page-header h1 {
+  font-family: var(--font-display);
+  font-size: 3rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  letter-spacing: -0.01em;
+  margin-bottom: 1.4rem;
+}
+.page-header .subtitle {
+  font-family: var(--font-body);
+  font-size: 1.1rem;
+  font-weight: 300;
+  line-height: 1.7;
+  color: var(--text-secondary);
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+/* ═══════════ PORTFOLIO GRID ═══════════ */
+.portfolio {
+  padding: 2rem 0 7rem;
+}
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+.portfolio-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  padding: 2.5rem 2.2rem;
+  transition: background 0.3s ease, border-color 0.3s ease;
+}
+.portfolio-card:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--border-gold);
+}
+.portfolio-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.portfolio-card .brand-name {
+  color: var(--text-primary);
+}
+.portfolio-card .category-tag {
+  font-family: var(--font-body);
+  font-size: 0.65rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--gold-dim);
+  background: var(--gold-glow);
+  border: 1px solid rgba(201, 168, 76, 0.12);
+  padding: 0.3rem 0.7rem;
+  white-space: nowrap;
+}
+.portfolio-card .description {
+  font-family: var(--font-body);
+  font-size: 0.88rem;
+  font-weight: 300;
+  line-height: 1.75;
+  color: var(--text-secondary);
+}
+
+/* Brand-specific typography */
+.brand-costar {
+  font-family: 'DM Sans', system-ui, sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+}
+.brand-pattern {
+  font-family: 'EB Garamond', Georgia, serif;
+  font-size: 1.3rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+.brand-nebula {
+  font-family: 'DM Sans', system-ui, sans-serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.brand-gaia {
+  font-family: 'EB Garamond', Georgia, serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+.brand-calm {
+  font-family: 'DM Sans', system-ui, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 300;
+  letter-spacing: 0.06em;
+  text-transform: lowercase;
+}
+.brand-headspace {
+  font-family: 'DM Sans', system-ui, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+.brand-insight-timer {
+  font-family: 'DM Sans', system-ui, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+.brand-mindvalley {
+  font-family: 'DM Sans', system-ui, sans-serif;
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.brand-hayhouse {
+  font-family: 'EB Garamond', Georgia, serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+}
+.brand-soundstrue {
+  font-family: 'EB Garamond', Georgia, serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+}
+.brand-dailyom {
+  font-family: 'EB Garamond', Georgia, serif;
+  font-size: 1.35rem;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: 0.02em;
+}
+.brand-aura {
+  font-family: 'DM Sans', system-ui, sans-serif;
+  font-size: 1.3rem;
+  font-weight: 300;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+.brand-simplehabit {
+  font-family: 'DM Sans', system-ui, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+.brand-breethe {
+  font-family: 'DM Sans', system-ui, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+  letter-spacing: 0.06em;
+  text-transform: lowercase;
+}
+
+/* ═══════════ PORTFOLIO NOTE ═══════════ */
+.portfolio-note {
+  max-width: 780px;
+  margin: 4rem auto 0;
+  text-align: center;
+  padding: 0 2rem;
+}
+.portfolio-note p {
+  font-family: var(--font-body);
+  font-size: 0.88rem;
+  font-weight: 300;
+  line-height: 1.75;
+  color: var(--text-tertiary);
+  font-style: italic;
+}
+
+/* ═══════════ MARKET STRIP ═══════════ */
+.market {
+  padding: 5rem 0;
+  border-top: 1px solid var(--border-subtle);
+  border-bottom: 1px solid var(--border-subtle);
+}
+.market-content {
+  max-width: 860px;
+  margin: 0 auto;
+  text-align: center;
+}
+.market-content p {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.7;
+  color: var(--text-secondary);
+}
+.market-content .gold-text {
+  color: var(--gold);
+  font-weight: 500;
+}
+
+/* ═══════════ FOOTER ═══════════ */
+.footer {
+  background: var(--bg-deep);
+  border-top: 1px solid var(--border-subtle);
+  padding: 4rem 0 3rem;
+}
+.footer-inner {
+  text-align: center;
+}
+.footer-brand {
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--text-primary);
+  margin-bottom: 1.5rem;
+}
+.footer-locations {
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: var(--text-tertiary);
+  margin-bottom: 0.8rem;
+  letter-spacing: 0.04em;
+}
+.footer-email {
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  text-decoration: none;
+  transition: color 0.3s ease;
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+.footer-email:hover {
+  color: var(--gold);
+}
+.footer-divider {
+  width: 60px;
+  height: 1px;
+  background: var(--border-subtle);
+  margin: 0 auto 2rem;
+}
+.footer-legal {
+  font-family: var(--font-body);
+  font-size: 0.7rem;
+  color: var(--text-tertiary);
+  margin-bottom: 0.6rem;
+  letter-spacing: 0.02em;
+}
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+.footer-links a {
+  font-family: var(--font-body);
+  font-size: 0.7rem;
+  color: var(--text-tertiary);
+  text-decoration: none;
+  letter-spacing: 0.04em;
+  transition: color 0.3s ease;
+}
+.footer-links a:hover {
+  color: var(--text-secondary);
+}
+
+/* ═══════════ RESPONSIVE ═══════════ */
+@media (max-width: 900px) {
+  .page-header h1 {
+    font-size: 2.4rem;
+  }
+  .portfolio-grid {
+    grid-template-columns: 1fr;
+  }
+  .market-content p {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: rgba(12, 18, 34, 0.97);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    flex-direction: column;
+    padding: 1.5rem 2rem 2rem;
+    gap: 1.2rem;
+    border-bottom: 1px solid var(--border-subtle);
+  }
+  .nav-links.open {
+    display: flex;
+  }
+  .nav-toggle {
+    display: block;
+  }
+  .page-header {
+    padding: 8rem 0 3rem;
+  }
+  .page-header h1 {
+    font-size: 2rem;
+  }
+  .page-header .subtitle {
+    font-size: 0.95rem;
+  }
+  .portfolio {
+    padding: 2rem 0 5rem;
+  }
+  .portfolio-card {
+    padding: 2rem 1.5rem;
+  }
+  .portfolio-card-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.6rem;
+  }
+  .market-content p {
+    font-size: 1.1rem;
+  }
+  .container {
+    padding: 0 1.25rem;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- ═══════════ NAVIGATION ═══════════ -->
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">Celestial Ventures</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="portfolio.html" class="active">Portfolio</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="creator-partnerships.html">Partnerships</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ═══════════ PAGE HEADER ═══════════ -->
+<header class="page-header">
+  <div class="container">
+    <div class="page-header-content reveal">
+      <div class="section-label">Our Portfolio</div>
+      <h1>Our Portfolio</h1>
+      <p class="subtitle">We build, acquire, and invest in the platforms defining how hundreds of millions engage with spiritual wellness.</p>
+    </div>
+  </div>
+</header>
+
+<!-- ═══════════ PORTFOLIO GRID ═══════════ -->
+<section class="portfolio">
+  <div class="container">
+    <div class="portfolio-grid">
+
+      <!-- 1. Co-Star -->
+      <div class="portfolio-card reveal">
+        <div class="portfolio-card-header">
+          <span class="brand-name brand-costar">co&mdash;star</span>
+          <span class="category-tag">Astrology Platform</span>
+        </div>
+        <p class="description">AI-powered astrology platform. 30M+ downloads. Personalized daily horoscopes and birth chart analysis.</p>
+      </div>
+
+      <!-- 2. The Pattern -->
+      <div class="portfolio-card reveal">
+        <div class="portfolio-card-header">
+          <span class="brand-name brand-pattern">The Pattern</span>
+          <span class="category-tag">Astrology Platform</span>
+        </div>
+        <p class="description">Social astrology app. Viral growth on TikTok. Relationship compatibility and personal timing insights.</p>
+      </div>
+
+      <!-- 3. Nebula -->
+      <div class="portfolio-card reveal">
+        <div class="portfolio-card-header">
+          <span class="brand-name brand-nebula">Nebula</span>
+          <span class="category-tag">Astrology Platform</span>
+        </div>
+        <p class="description">Popular astrology and horoscope platform. Daily guidance, palm reading, and compatibility analysis.</p>
+      </div>
+
+      <!-- 4. Gaia -->
+      <div class="portfolio-card reveal">
+        <div class="portfolio-card-header">
+          <span class="brand-name brand-gaia">Gaia</span>
+          <span class="category-tag">Spiritual Streaming</span>
+        </div>
+        <p class="description">Spiritual streaming platform. 800K+ subscribers. Yoga, meditation, and consciousness content library.</p>
+      </div>
+
+      <!-- 5. Calm -->
+      <div class="portfolio-card reveal">
+        <div class="portfolio-card-header">
+          <span class="brand-name brand-calm">calm</span>
+          <span class="category-tag">Meditation App</span>
+        </div>
+        <p class="description">Leading meditation and sleep app. 100M+ downloads. Apple App of the Year.</p>
+      </div>
+
+      <!-- 6. Headspace -->
+      <div class="portfolio-card reveal">
+        <div class="portfolio-card-header">
+          <span class="brand-name brand-headspace">Headspace</span>
+          <span class="category-tag">Meditation App</span>
+        </div>
+        <p class="description">Meditation and mindfulness app. Guided meditations, sleep content, and focus tools.</p>
+      </div>
+
+      <!-- 7. Insight Timer -->
+      <div class="portfolio-card reveal">
+        <div class="portfolio-card-header">
+          <span class="brand-name brand-insight-timer">Insight Timer</span>
+          <span class="category-tag">Meditation Platform</span>
+        </div>
+        <p class="description">Open meditation platform. 20M+ users. Community-driven meditation and teacher marketplace.</p>
+      </div>
+
+      <!-- 8. Mindvalley -->
+      <div class="portfolio-card reveal">
+        <div class="portfolio-card-header">
+          <span class="brand-name brand-mindvalley">Mindvalley</span>
+          <span class="category-tag">Personal Growth</span>
+        </div>
+        <p class="description">Personal growth and transformation platform. Online courses, masterclasses, and community events.</p>
+      </div>
+
+      <!-- 9. Hay House -->
+      <div class="portfolio-card reveal">
+        <div class="portfolio-card-header">
+          <span class="brand-name brand-hayhouse">Hay House</span>
+          <span class="category-tag">Spiritual Publishing</span>
+        </div>
+        <p class="description">Spiritual publishing and media company. Founded by Louise Hay. Books, courses, and events.</p>
+      </div>
+
+      <!-- 10. Sounds True -->
+      <div class="portfolio-card reveal">
+        <div class="portfolio-card-header">
+          <span class="brand-name brand-soundstrue">Sounds True</span>
+          <span class="category-tag">Wellness Media</span>
+        </div>
+        <p class="description">Spiritual and wellness media company. Audio, video, and digital learning content.</p>
+      </div>
+
+      <!-- 11. Daily Om -->
+      <div class="portfolio-card reveal">
+        <div class="portfolio-card-header">
+          <span class="brand-name brand-dailyom">Daily Om</span>
+          <span class="category-tag">Wellness Content</span>
+        </div>
+        <p class="description">Wellness content and courses platform. Daily inspiration, online courses, and community.</p>
+      </div>
+
+      <!-- 12. Aura -->
+      <div class="portfolio-card reveal">
+        <div class="portfolio-card-header">
+          <span class="brand-name brand-aura">Aura</span>
+          <span class="category-tag">Wellness App</span>
+        </div>
+        <p class="description">Personalized wellness and meditation app. AI-driven recommendations and mood tracking.</p>
+      </div>
+
+      <!-- 13. Simple Habit -->
+      <div class="portfolio-card reveal">
+        <div class="portfolio-card-header">
+          <span class="brand-name brand-simplehabit">Simple Habit</span>
+          <span class="category-tag">Meditation App</span>
+        </div>
+        <p class="description">Meditation app designed for busy lifestyles. 5-minute sessions and guided programs.</p>
+      </div>
+
+      <!-- 14. Breethe -->
+      <div class="portfolio-card reveal">
+        <div class="portfolio-card-header">
+          <span class="brand-name brand-breethe">breethe</span>
+          <span class="category-tag">Wellness App</span>
+        </div>
+        <p class="description">Meditation, sleep, and wellness app. Guided meditations, bedtime stories, and life coaching.</p>
+      </div>
+
+    </div>
+
+    <div class="portfolio-note reveal">
+      <p>Our portfolio represents a range of involvement&thinsp;&mdash;&thinsp;from equity investments and acquisitions to strategic partnerships and advisory relationships.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ MARKET STRIP ═══════════ -->
+<section class="market">
+  <div class="container">
+    <div class="market-content reveal">
+      <p>The global wellness market is valued at <span class="gold-text">$5.6 trillion</span>. Spiritual wellness and astrology represent one of the fastest-growing segments, driven by consumer demand for personalized, technology-enabled spiritual experiences.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ FOOTER ═══════════ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-brand">Celestial Ventures</div>
+      <div class="footer-locations">New York&ensp;|&ensp;London&ensp;|&ensp;Singapore</div>
+      <a href="mailto:info@celestialventures.co" class="footer-email">info@celestialventures.co</a>
+      <div class="footer-divider"></div>
+      <div class="footer-legal">&copy; 2016&ndash;2026 Celestial Ventures. All rights reserved.</div>
+      <div class="footer-links">
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+/* ═══════════ MOBILE NAV TOGGLE ═══════════ */
+(function() {
+  var toggle = document.getElementById('navToggle');
+  var links = document.getElementById('navLinks');
+  toggle.addEventListener('click', function() {
+    links.classList.toggle('open');
+  });
+  var anchors = links.querySelectorAll('a');
+  for (var i = 0; i < anchors.length; i++) {
+    anchors[i].addEventListener('click', function() {
+      links.classList.remove('open');
+    });
+  }
+})();
+
+/* ═══════════ INTERSECTION OBSERVER — REVEAL ═══════════ */
+(function() {
+  var reveals = document.querySelectorAll('.reveal');
+  if ('IntersectionObserver' in window) {
+    var observer = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.15, rootMargin: '0px 0px -40px 0px' });
+    reveals.forEach(function(el) { observer.observe(el); });
+  } else {
+    reveals.forEach(function(el) { el.classList.add('visible'); });
+  }
+})();
+</script>
+</body>
+</html>
