@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Celestial Ventures — Our Mission & Approach</title>
+<meta name="description" content="Celestial Ventures is a leading holding company in spiritual wellness technology, building, acquiring, and investing in platforms that define how hundreds of millions engage with astrology, mindfulness, and spiritual growth.">
+<meta property="og:title" content="About Celestial Ventures — Our Mission & Approach">
+<meta property="og:description" content="Celestial Ventures is a leading holding company in spiritual wellness technology, building, acquiring, and investing in platforms that define how hundreds of millions engage with astrology, mindfulness, and spiritual growth.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://celestialventures.co/about">
+<meta property="og:site_name" content="Celestial Ventures">
+<meta property="og:image" content="https://celestialventures.co/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<link rel="canonical" href="https://celestialventures.co/about">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://celestialventures.co/og-image.png">
+<meta name="twitter:title" content="About Celestial Ventures — Our Mission & Approach">
+<meta name="twitter:description" content="Celestial Ventures is a leading holding company in spiritual wellness technology, building, acquiring, and investing in platforms that define how hundreds of millions engage with astrology, mindfulness, and spiritual growth.">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230c1222'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='18' font-weight='bold' fill='%23c9a84c' text-anchor='middle'%3ECV%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://celestialventures.co/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "About",
+      "item": "https://celestialventures.co/about"
+    }
+  ]
+}
+</script>
+<style>
+/* ═══════════ RESET & CUSTOM PROPERTIES ═══════════ */
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+
+:root {
+  --bg-deep: #080810;
+  --bg-primary: #0c1222;
+  --bg-elevated: #0f1730;
+  --bg-card: #111b33;
+  --bg-card-hover: #162040;
+  --text-primary: #e8e6e3;
+  --text-secondary: #9a9aaa;
+  --text-tertiary: #5a5a6e;
+  --gold: #c9a84c;
+  --gold-light: #ddc068;
+  --gold-dim: #a08636;
+  --gold-glow: rgba(201, 168, 76, 0.08);
+  --gold-glow-strong: rgba(201, 168, 76, 0.15);
+  --amber: #d4a574;
+  --border-subtle: rgba(255,255,255,0.04);
+  --border-gold: rgba(201, 168, 76, 0.25);
+  --font-display: 'EB Garamond', 'Georgia', serif;
+  --font-body: 'DM Sans', system-ui, -apple-system, sans-serif;
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  overflow-x: hidden;
+  line-height: 1.6;
+}
+
+/* ═══════════ SCROLLBAR ═══════════ */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--bg-deep); }
+::-webkit-scrollbar-thumb { background: #1e2845; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--gold-dim); }
+
+/* ═══════════ CONTAINER ═══════════ */
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* ═══════════ FADE-IN ANIMATION ═══════════ */
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.8s var(--ease-out-expo), transform 0.8s var(--ease-out-expo);
+}
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ═══════════ NAVIGATION ═══════════ */
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: rgba(12, 18, 34, 0.95);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  padding: 1.2rem 0;
+  border-bottom: 1px solid var(--border-subtle);
+}
+.nav-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+.nav-logo {
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.28em;
+  color: var(--text-primary);
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.nav-links {
+  display: flex;
+  gap: 2.5rem;
+  list-style: none;
+}
+.nav-links a {
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.nav-links a:hover {
+  color: var(--gold);
+}
+.nav-links a.active {
+  color: var(--gold);
+}
+
+/* Mobile nav toggle */
+.nav-toggle {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+}
+.nav-toggle span {
+  display: block;
+  width: 22px;
+  height: 1.5px;
+  background: var(--text-primary);
+  margin: 5px 0;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* ═══════════ PAGE HEADER ═══════════ */
+.page-header {
+  padding: 10rem 0 4rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.page-header::before {
+  content: '';
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(201, 168, 76, 0.04) 0%, transparent 65%);
+  pointer-events: none;
+}
+.page-header-content {
+  position: relative;
+  z-index: 1;
+}
+.page-header .section-label {
+  font-family: var(--font-body);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 1.2rem;
+}
+.page-header h1 {
+  font-family: var(--font-display);
+  font-size: 3rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  letter-spacing: -0.01em;
+  margin-bottom: 1.4rem;
+}
+.page-header .subtitle {
+  font-family: var(--font-body);
+  font-size: 1.1rem;
+  font-weight: 300;
+  line-height: 1.7;
+  color: var(--text-secondary);
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+/* ═══════════ CONTENT SECTIONS ═══════════ */
+.content-section {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 0 2rem 5rem;
+}
+.content-section h2 {
+  font-family: var(--font-display);
+  font-size: 1.9rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  margin-bottom: 1.8rem;
+  letter-spacing: -0.01em;
+}
+.content-section p {
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  font-weight: 300;
+  line-height: 1.85;
+  color: var(--text-secondary);
+  margin-bottom: 1.4rem;
+}
+.content-section .gold-text {
+  color: var(--gold);
+  font-weight: 500;
+}
+
+/* ═══════════ DIVIDER ═══════════ */
+.section-divider {
+  width: 60px;
+  height: 1px;
+  background: var(--border-gold);
+  margin: 0 auto 5rem;
+}
+
+/* ═══════════ MARKET STRIP ═══════════ */
+.market {
+  padding: 5rem 0;
+  border-top: 1px solid var(--border-subtle);
+  border-bottom: 1px solid var(--border-subtle);
+}
+.market-content {
+  max-width: 860px;
+  margin: 0 auto;
+  text-align: center;
+}
+.market-content p {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.7;
+  color: var(--text-secondary);
+}
+.market-content .gold-text {
+  color: var(--gold);
+  font-weight: 500;
+}
+
+/* ═══════════ FOOTER ═══════════ */
+.footer {
+  background: var(--bg-deep);
+  border-top: 1px solid var(--border-subtle);
+  padding: 4rem 0 3rem;
+}
+.footer-inner {
+  text-align: center;
+}
+.footer-brand {
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--text-primary);
+  margin-bottom: 1.5rem;
+}
+.footer-locations {
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: var(--text-tertiary);
+  margin-bottom: 0.8rem;
+  letter-spacing: 0.04em;
+}
+.footer-email {
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  text-decoration: none;
+  transition: color 0.3s ease;
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+.footer-email:hover {
+  color: var(--gold);
+}
+.footer-divider {
+  width: 60px;
+  height: 1px;
+  background: var(--border-subtle);
+  margin: 0 auto 2rem;
+}
+.footer-legal {
+  font-family: var(--font-body);
+  font-size: 0.7rem;
+  color: var(--text-tertiary);
+  margin-bottom: 0.6rem;
+  letter-spacing: 0.02em;
+}
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+.footer-links a {
+  font-family: var(--font-body);
+  font-size: 0.7rem;
+  color: var(--text-tertiary);
+  text-decoration: none;
+  letter-spacing: 0.04em;
+  transition: color 0.3s ease;
+}
+.footer-links a:hover {
+  color: var(--text-secondary);
+}
+
+/* ═══════════ RESPONSIVE ═══════════ */
+@media (max-width: 900px) {
+  .page-header h1 {
+    font-size: 2.4rem;
+  }
+  .content-section h2 {
+    font-size: 1.6rem;
+  }
+  .market-content p {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: rgba(12, 18, 34, 0.97);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    flex-direction: column;
+    padding: 1.5rem 2rem 2rem;
+    gap: 1.2rem;
+    border-bottom: 1px solid var(--border-subtle);
+  }
+  .nav-links.open {
+    display: flex;
+  }
+  .nav-toggle {
+    display: block;
+  }
+  .page-header {
+    padding: 8rem 0 3rem;
+  }
+  .page-header h1 {
+    font-size: 2rem;
+  }
+  .page-header .subtitle {
+    font-size: 0.95rem;
+  }
+  .content-section {
+    padding: 0 1.25rem 4rem;
+  }
+  .content-section h2 {
+    font-size: 1.45rem;
+  }
+  .market-content p {
+    font-size: 1.1rem;
+  }
+  .container {
+    padding: 0 1.25rem;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- ═══════════ NAVIGATION ═══════════ -->
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">Celestial Ventures</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="about.html" class="active">About</a></li>
+      <li><a href="creator-partnerships.html">Partnerships</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ═══════════ PAGE HEADER ═══════════ -->
+<header class="page-header">
+  <div class="container">
+    <div class="page-header-content reveal">
+      <div class="section-label">About Us</div>
+      <h1>Our Mission &amp; Approach</h1>
+      <p class="subtitle">Building the infrastructure behind the world&rsquo;s leading spiritual wellness brands since 2016.</p>
+    </div>
+  </div>
+</header>
+
+<!-- ═══════════ OUR MISSION ═══════════ -->
+<section class="content-section reveal">
+  <h2>Our Mission</h2>
+  <p>Celestial Ventures was founded in 2016 with a singular thesis: that the intersection of technology and spiritual wellness would produce the next generation of enduring consumer brands. A decade later, that thesis has been validated by a portfolio spanning 24 companies across meditation, astrology, mindfulness, and spiritual content&thinsp;&mdash;&thinsp;platforms that collectively serve over <span class="gold-text">180 million users monthly</span>.</p>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- ═══════════ OUR APPROACH ═══════════ -->
+<section class="content-section reveal">
+  <h2>Our Approach</h2>
+  <p>We operate at the intersection of three disciplines: consumer technology, spiritual wellness, and digital media. We build, acquire, and invest across the full lifecycle&thinsp;&mdash;&thinsp;from seed-stage platforms with breakout potential to established category leaders seeking strategic capital and operational partnership.</p>
+  <p>Our investment philosophy centers on platforms with deep user engagement, recurring usage patterns, and authentic connections to the communities they serve. We believe the spiritual wellness category is defined by trust&thinsp;&mdash;&thinsp;users return to the products and creators they trust&thinsp;&mdash;&thinsp;and our portfolio strategy reflects that conviction.</p>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- ═══════════ OUR TEAM ═══════════ -->
+<section class="content-section reveal">
+  <h2>Our Team</h2>
+  <p>Our team brings decades of combined experience across consumer technology, venture capital, wellness, and digital media. We draw on operating experience at leading technology firms, media companies, and investment platforms&thinsp;&mdash;&thinsp;a breadth of perspective that informs every investment thesis and operational decision.</p>
+  <p>We are headquartered in New York with offices in London and Singapore, reflecting the global scale of the markets we serve.</p>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- ═══════════ THE OPPORTUNITY ═══════════ -->
+<section class="content-section reveal">
+  <h2>The Opportunity</h2>
+  <p>The global wellness market represents a <span class="gold-text">$5.6 trillion</span> opportunity. Within that, spiritual wellness&thinsp;&mdash;&thinsp;astrology, meditation, mindfulness, energy healing&thinsp;&mdash;&thinsp;is one of the fastest-growing segments, driven by a generational shift toward personalized, technology-enabled spiritual experiences. Celestial Ventures is positioned at the center of this transformation.</p>
+</section>
+
+<!-- ═══════════ MARKET STRIP ═══════════ -->
+<section class="market">
+  <div class="container">
+    <div class="market-content reveal">
+      <p><span class="gold-text">24 portfolio companies.</span> Over <span class="gold-text">180 million</span> monthly users. More than <span class="gold-text">$2.1 billion</span> in capital deployed across <span class="gold-text">40+ countries</span>.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ FOOTER ═══════════ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-brand">Celestial Ventures</div>
+      <div class="footer-locations">New York&ensp;|&ensp;London&ensp;|&ensp;Singapore</div>
+      <a href="mailto:info@celestialventures.co" class="footer-email">info@celestialventures.co</a>
+      <div class="footer-divider"></div>
+      <div class="footer-legal">&copy; 2016&ndash;2026 Celestial Ventures. All rights reserved.</div>
+      <div class="footer-links">
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+/* ═══════════ MOBILE NAV TOGGLE ═══════════ */
+(function() {
+  var toggle = document.getElementById('navToggle');
+  var links = document.getElementById('navLinks');
+  toggle.addEventListener('click', function() {
+    links.classList.toggle('open');
+  });
+  var anchors = links.querySelectorAll('a');
+  for (var i = 0; i < anchors.length; i++) {
+    anchors[i].addEventListener('click', function() {
+      links.classList.remove('open');
+    });
+  }
+})();
+
+/* ═══════════ INTERSECTION OBSERVER — REVEAL ═══════════ */
+(function() {
+  var reveals = document.querySelectorAll('.reveal');
+  if ('IntersectionObserver' in window) {
+    var observer = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.15, rootMargin: '0px 0px -40px 0px' });
+    reveals.forEach(function(el) { observer.observe(el); });
+  } else {
+    reveals.forEach(function(el) { el.classList.add('visible'); });
+  }
+})();
+</script>
+</body>
+</html>
